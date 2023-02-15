@@ -2,9 +2,17 @@
     background-color: #ffb40e;
 }
 
-.navbar-return{
-   
+  
+
+body{
+    margin:0;
+    padding:0;
 }
+.navbar-return{
+    width: 100vw;
+    height: 100vh;
+}
+
 nav{
     display:flex;
     background-color: #000000;
@@ -16,6 +24,10 @@ nav{
     text-decoration: none;
     float:left;
     margin:0;
+    padding:0;
+    opacity: 0.9;
+    height:100%;
+    width:300px;
 }
 
 .Linker{
@@ -33,3 +45,11 @@ nav{
     border-radius: 10%;
 }
 
+#sidebar-left{
+    display: "flex";
+    flex-direction: "column";
+    width: "20%";
+    align-content: left;
+    height:100%;
+    
+}
